@@ -1,0 +1,19 @@
+{
+    "name": "jairo/api-responses",
+    "require": {
+        "illuminate/http": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jairo Ushiña",
+            "email": "jago86@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jairo\\ApiResponses\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
