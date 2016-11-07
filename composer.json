@@ -1,7 +1,7 @@
 {
     "name": "jairo/api-responses",
     "require": {
-        "illuminate/http": "^5.3"
+        "illuminate/http": "5.*"
     },
     "license": "MIT",
     "authors": [
