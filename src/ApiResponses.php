@@ -41,6 +41,18 @@ trait ApiResponses
      *
      * @return     Illuminate\Http\Response
      */
+    public function respondNoContent($message = '', $headers = [])
+    {
+        return $this->setStatusCode(204)->respond($message, $headers);
+    }
+
+    /**
+     * Return a 400 response
+     *
+     * @param      mixed                     $message  Error message(s)
+     *
+     * @return     Illuminate\Http\Response
+     */
     public function respondBadRequest($message = 'Bad Request Error!')
     {
     	return $this->setStatusCode(400)->respondWithError($message);
